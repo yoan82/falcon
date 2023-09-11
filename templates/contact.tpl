@@ -27,6 +27,7 @@
 {block name='page_header_container'}{/block}
 
 {if $layout === 'layouts/layout-left-column.tpl'}
+Coucou
   {block name="left_column"}
     <div id="left-column" class="col-12 col-sm-4 col-md-3">
       {widget name="ps_contactinfo" hook='displayLeftColumn'}
